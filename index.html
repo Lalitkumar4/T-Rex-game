@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>T-Rex Game</title>
+  </head>
+  <body>
+    <div id="game" class="game">
+      <img src="./img/t-rex.png" alt="" id="t-rex" class="t-rex" />
+
+      <img src="./img/cactus.png" alt="" id="cactus" class="cactus" />
+    </div>
+
+    <!-- Sounds -->
+    <audio id="die" src="./sound/die.mp3"></audio>
+    <audio id="jump" src="./sound/jump.mp3"></audio>
+    <audio id="point" src="./sound/point.mp3"></audio>
+
+    <div class="scoreContainer">
+      <p>Score: <span id="scoreSpan"></span></p>
+      <p>Highscore: <span id="highScoreSpan"></span></p>
+    </div>
+
+    <div class="btn">
+      <button id="restart" class="restart-btn">Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
