@@ -6,4 +6,4 @@ This is a simple web-based game where you control a T-Rex and try to avoid cacti
 
 
 ## Controls
-- **Spacebar** or **Up Arrow**: Jump
+**Spacebar** or **Up Arrow key**: Jump
